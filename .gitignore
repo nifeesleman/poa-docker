@@ -1,0 +1,26 @@
+# Secrets and keys
+.password
+*.key
+boot.key
+bnode/boot.key
+info.txt
+
+# Node data (recreate with init-nodes.sh)
+node1/geth/
+node1/data/
+node1/keystore/
+node2/geth/
+node2/data/
+node2/keystore/
+node3/geth/
+node3/data/
+node3/keystore/
+**/password.txt
+**/jwtsecret
+**/nodekey
+**/eth.chainId
+
+# Nested wrong datadirs
+node1/node1/
+node2/node2/
+node3/node3/
